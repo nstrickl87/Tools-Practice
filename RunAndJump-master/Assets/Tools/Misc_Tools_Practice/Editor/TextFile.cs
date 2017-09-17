@@ -11,12 +11,12 @@ public class TextFile {
 	{
         if (Application.platform == RuntimePlatform.OSXEditor)
         {
-            StreamWriter myWriter = File.CreateText(Application.dataPath + "/new.txt");
+            StreamWriter myWriter = File.CreateText(Application.dataPath + "/NEW_TEXT.txt");
             Refresh();
         }
         else
         {
-            StreamWriter myWriter = File.CreateText(Application.dataPath + "/new.txt");
+            StreamWriter myWriter = File.CreateText(Application.dataPath + "/NEW_TEXT.txt");
             Refresh();
         }
 	}
