@@ -16,7 +16,7 @@ public class TextFile {
         }
         else
         {
-            StreamWriter myWriter = File.CreateText(Application.dataPath + "\new.txt");
+            StreamWriter myWriter = File.CreateText(Application.dataPath + "/new.txt");
             Refresh();
         }
 	}
